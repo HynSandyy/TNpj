@@ -109,7 +109,7 @@ a{
 .header__form-1{
         height: 40px;
         width: 45%;
-        border: 1px solid;
+        border: 1px solid #74895c;
         border-radius: 50px;
         display: flex;
         justify-content: space-between;
