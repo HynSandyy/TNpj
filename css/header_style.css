@@ -88,18 +88,24 @@ a{
   
 }
 
-.item1{
-        grid-column:span 2;
-        grid-row: span 2;
+.item1 {
+        grid-column:2;
+        grid-row:  span 2;
 }
-
+.item1 img{
+        width:255px;
+        height:120px;
+        object-fit: cover;
+        object-position: center;
+}
 .item2{
         text-align: center;
         grid-column-start: span 6;
         width: 60%;
         display: flex;
         justify-content: space-between;
-        padding: 20px;
+        padding: 10px;
+        margin-right: 50px;
     }
 .item3{
         width: 90%;
@@ -143,7 +149,7 @@ a{
     .h__item3-ul{
         display: flex;
         justify-content: space-between;
-        padding: 20px;
+        padding: 10px;
     }
     .h_item3__li{
         list-style-type: none;
@@ -154,7 +160,7 @@ a{
     .header1{
         background-color: rgb(229, 224, 202,0.9);
         width:1400px;
-        height: 150px;
+        height: 120px;
     display: grid;
     grid-template-columns: 20px auto auto auto auto auto auto 20px ;
     grid-template-rows: 60px 60px;
