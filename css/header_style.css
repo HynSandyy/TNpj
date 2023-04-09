@@ -72,6 +72,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 header:hover {
@@ -241,6 +242,7 @@ a:hover {
   position: -webkit-sticky;
   position: sticky;
   top: 45px;
+  z-index: 1;
 }
 
 .h_item3__li_dropdown {
