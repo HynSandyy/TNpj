@@ -284,6 +284,7 @@ a:hover {
   top: 0px;
   left: 125px;
   padding: 10px;
+  padding-left: 20px;
   border-left: 2px solid rgba(0, 0, 0, 0.242);
   background-color: #e5e0ca;
   border-radius: 0px 0px 20px 0px;
